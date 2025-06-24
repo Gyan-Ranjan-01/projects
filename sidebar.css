@@ -1,0 +1,99 @@
+body{
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-color: rgb(107, 100, 100);
+    opacity: 50%;
+    height: 639px;
+    color: white;
+}
+
+input[type="checkbox"]:checked + #bar{
+    display: none;
+}
+
+.menu{
+    /* background-color: rgb(107, 100, 100);
+    opacity: 90%;
+    height: ; */
+    /* width: 10%; */
+    
+    font-size: 30px;
+
+
+}
+li{
+    margin: 20px; 
+    text-align: left;  
+    margin-left: 0;
+    transition: border 1s ease-in-out 0.2s; 
+    width: 100%;
+    transition: background-color 0.5s ease-in-out 0s;
+    transition: padding 0.5s ease-in-out 0s;
+
+     
+   
+}
+li:hover{
+    /* border: 2px solid wheat; */
+     background-color: rgb(36, 36, 36);
+     padding: 10px;
+   
+}
+#text{
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0%;
+
+}
+.logo{
+    border: 2px solid rgb(198, 183, 183);
+    font-size: 30px;
+    padding: 10px;
+   
+    
+    
+}
+
+.social_media{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    transition: font-size 0.45s ease-in-out 0s;
+}    
+
+.social_media:hover{
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+.main_box{
+    height: 639px;
+    background-color: rgb(64, 64, 64);
+    width: 20%;
+    opacity: 0.85;
+    margin: 0;
+    transform: translateX(-100%);      /* hide it off-screen */
+    transition: transform .4s ease;    /* smooth slide */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#check{
+    display: none;
+}
+
+#bar{
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 9999;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+/* #check:checked + .main_box {
+    translateX: (0%);
+} */
